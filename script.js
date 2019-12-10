@@ -11,3 +11,5 @@ var upCaseInput = document.getElementById("upCase");
 var lengthInput = document.getElementById("lenght");
 var passwordField = document.getElementById("passwordField");
 var createButton = document.getElementById("create");
+
+
