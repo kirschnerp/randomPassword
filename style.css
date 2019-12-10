@@ -1,5 +1,5 @@
 body {
-    padding-top: 100px;
+    padding-top: 40px;
     background: wheat;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 18px;
@@ -20,7 +20,6 @@ body {
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
-    border-bottom: 3px solid #dddddd;
   }
 
   button {
@@ -35,10 +34,9 @@ body {
   }
   
   .maincontainer {
-    overflow: hidden;
     margin: auto;
     width: 90%;
-    max-width: 380px;
+    height: auto;
     background: white;
     border: 5px;    
     display: flex;
@@ -46,7 +44,7 @@ body {
   }
   .titlesection {
     text-align: left;
-    border-bottom: 2px dotted darkgray;
+    border-bottom: 2px solid darkgray;
     color: gray;
     margin-top: 20px;
     padding: 2px 2px 2px 8px;
@@ -54,12 +52,34 @@ body {
     justify-content: space-between;
   }
   .passwordsection {
-    textalign: center;
-    padding: 0 5px;
-    border-radius: 2px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px; 
+    border: 5px dotted black;
+    border-radius: 25px;
     color: rgb(139, 137, 137);
-    opacity: 0;
     transition: all 0.5s ease;
+  }
+
+  .buttonsection {
+    padding: 20px;
+    border-top: 2px solid darkgray;
+    
+  }
+
+  #genpass {
+    float: left;
+    background-color: red;
+  }
+
+  #copy2clip {
+    float: right;
+    background-color: darkgray;
+  }
+
+  #p1 {
+      color: gray;
+      opacity: 0.4;
   }
 
   
