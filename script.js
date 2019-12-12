@@ -13,15 +13,11 @@ var passwordField = document.getElementById("passwordField");
 var createButton = document.getElementById("create");
 var userPWord;
 var pwordGroup;
-var pwordlenght;
 
-//loop
-for (var x = 0; x < 128; x++) {
+//prompts
+var pwordlength = prompt("How many characters do you want your password? Please enter number.");
+var specCharInput = confirm("Do you want to include a special character?");
+var numInput = confirm("Do you want to include numbers?");
+var upCaseInput = confirm("Do you want to include captial letters?");
 
-//variables
-var userInput1 = pwordlength[Math.floor(Math.random() * pwordlength.length)];
-var pwordlength = prompt ("How many characters would you like your password to be?");
-//if
-if (userInput1 >=128 && userInput1 === typeof(number))    
-    alert("You chose " + userInput1)
 
