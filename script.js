@@ -64,45 +64,4 @@ function generate() {
       
 
        
-    /*
-      clipboard.on('success', function(e) {
-          console.info('Action:', e.action);
-          console.info('Text:', e.text);
-          console.info('Trigger:', e.trigger);
-          let alertbox = document.getElementById('alert');
-          alertbox.innerHTML = "Copied!"
-          alertbox.classList.add('success');
-          setTimeout(function(){ 
-            alertbox.classList.remove('success');
-          }, 3000);
-          
-          e.clearSelection();
-      });
-       
-      clipboard.on('error', function(e) {
-          console.error('Action:', e.action);
-          console.error('Trigger:', e.trigger);
-        let alertbox = document.getElementById('alert');
-          alertbox.innerHTML = "Try select the text to copy"
-          alertbox.classList.add('fail');
-          setTimeout(function(){ 
-            alertbox.classList.remove('fail');
-          }, 3000);
-      });
-
-      
-      
-      var userInput1 = pwordlength[Math.floor(Math.random() * pwordlength.length)];
-
-      //if
-            if (userInput1 >=128 && userInput1 === typeof(number))    
-        alert("You chose " + userInput1)  
-
-        copyButton.setAttribute("data-clipboard-text", userPassword)
-
-        generateButton.addEventListener("click", generate);
-    */      
-   
-
-
-
+    
